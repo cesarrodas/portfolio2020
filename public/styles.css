@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px 200px 200px 200px 200px;
+}
+
+.nav {
+  background-color: rgb(41, 138, 184);
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  line-height: 50px;
+  background-color: rgb(41, 138, 184);
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  background-color: rgb(34, 114, 151);
+}
+
+.about {
+  background-color: rgb(227, 234, 238);
+}
+
+.projects {
+  background-color: rgb(227, 234, 238);
+}
+
+.contact {
+  background-color: rgb(227, 234, 238);
+}
+
+.footer {
+  background-color: rgb(41, 138, 184);
+}
